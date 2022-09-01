@@ -1,3 +1,4 @@
+import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import Container from "react-bootstrap/Container";

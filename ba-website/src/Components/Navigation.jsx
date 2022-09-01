@@ -1,3 +1,4 @@
+import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import Container from "react-bootstrap/Container";
@@ -9,12 +10,12 @@ export default function Navigation() {
   console.log(currentURL);
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg" className="imageWrapper">
         <Container>
           <Navbar.Brand href="/">Deadman's Bluff Rage Room </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+          <Navbar.Collapse className="justify-content-end">
+            <Nav className="text-end">
               <Nav.Link
                 href="/home"
                 className={currentURL === "/home" ? "active" : ""}

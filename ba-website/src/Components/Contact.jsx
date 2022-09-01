@@ -4,7 +4,6 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Image from "react-bootstrap/Image";
 
 export default function Contact() {
   return (

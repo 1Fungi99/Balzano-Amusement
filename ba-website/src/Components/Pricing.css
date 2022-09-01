@@ -1,0 +1,20 @@
+.title {
+  vertical-align: middle;
+}
+
+.title-padding {
+  padding-top: 2rem;
+}
+
+.reverse-padding {
+  margin-bottom: 0;
+}
+
+.header-padding {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.margin-adjustment {
+  margin-top: 1rem;
+}
