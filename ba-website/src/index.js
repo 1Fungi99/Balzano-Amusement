@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import Home from "./Components/Home";
-import Contact from "./Components/Contact";
-import Pricing from "./Components/Pricing";
-import Navigation from "./Components/Navigation";
-import Rules from "./Components/Rules";
 
+import "./index.css";
+
+import Navigation from "./Components/Navigation";
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+import Pricing from "./Pages/Pricing";
+import Rules from "./Pages/Rules";
+/* import Footer from "./Components/Footer";*/
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -23,6 +25,7 @@ export default function Router() {
           <Route path="/rules" element={<Rules />} />
         </Routes>
       </BrowserRouter>
+      {/* <Footer /> */}
     </>
   );
 }

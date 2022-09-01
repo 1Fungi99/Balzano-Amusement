@@ -1,6 +1,5 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./Pricing.css";
 
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";

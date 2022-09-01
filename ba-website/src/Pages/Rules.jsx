@@ -2,10 +2,13 @@ import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import Container from "react-bootstrap/Container";
+import MdLanding from "../Components/MdLanding";
+import BgImg from "../Resources/LSAT4.jfif";
 
 export default function Rules() {
   return (
     <>
+      <MdLanding img={BgImg} pageName="Rules" />
       <Container lg>
         <h1>Safety Requirements:</h1>
         <ul>
@@ -57,14 +60,6 @@ export default function Rules() {
           <li>Explosives</li>
           <li>
             CRT Bulbs <i>(found in older computer monitors and TVs)</i>
-          </li>
-          <li>
-            Children <i>(I cannot believe I have to write this)</i>
-            <ul>
-              <li>
-                <i>(Allowable if the child is 12 and can defend themselves)</i>
-              </li>
-            </ul>
           </li>
         </ul>
       </Container>
